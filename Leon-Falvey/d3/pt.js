@@ -11,11 +11,10 @@ var intersections = {
 };
 var lines = ['alamein', 'glenWaverly', 'sandringham'];
 
-var origin= "Glenferrie";//prompt("Which station are you starting from?");//prompt("Enter your origin");
 
+var origin=prompt("Which station are you starting from?");//prompt("Enter your origin");
 
-
-var destination= "Prahran";//prompt("Where is your destination?");//prompt("Enter your destination");
+var destination=prompt("Where is your destination?");//prompt("Enter your destination");
 
 var currentLine=-1; // the current line index
 var pos=-1;
